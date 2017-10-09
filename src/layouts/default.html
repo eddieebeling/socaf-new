@@ -1,0 +1,71 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+
+    <header>
+      Logo
+    </header>
+    <nav>
+      <ul class="ul1">
+        <li class="li1"><a class="a1" href="/about/index.html">About the Fair</a>
+          <ul class="ul2">
+            <li class="li2"><a href="/about/location.html">Event Location / Hours</a></li>
+            <li class="li2"><a href="/about/artist-list.html">2017 Artist Line-Up</a></li>
+            <li class="li2"><a href="/about/entertainment.html">Food &amp; Entertainment</a></li>
+            <li class="li2"><a href="/about/childrens.html">Children’s Tent</a></li>
+            <li class="li2"><a href="/about/mural.html">Community Project</a></li>
+            <li class="li2"><a href="/about/map.html">Fair Program &amp; Map</a></li>
+          </ul>
+        </li>
+        <li class="li1"><a class="a1" href="/artist-information/index.html">Artist Information</a>
+          <ul class="ul2">
+            <li class="li2"><a href="/artist-information/application.html">Application Process &amp; Deadlines</a></li>
+            <li class="li2"><a href="/artist-information/fees.html">Fees &amp; Policies</a></li>
+            <li class="li2"><a href="/artist-information/map.html">Fair Program &amp; Map</a></li>
+            <li class="li2"><a href="/artist-information/childrens.html">Children's Tent</a></li>
+            <li class="li2"><a href="/artist-information/local-information.html">Local Information</a></li>
+            <li class="li2"><a href="/artist-information/awards.html">Artist Awards</a></li>
+          </ul>
+        </li>
+        <li class="li1"><a class="a1" href="/contest-scholarships/index.html">Student Contest &amp; Awards</a>
+          <ul class="ul2">
+            <li class="li2"><a href="/contest-scholarships/student-art.html">Student Art Contest</a></li>
+            <li class="li2"><a href="/contest-scholarships/scholarships.html">Portfolio Award Information</a></li>
+          </ul>
+        </li>
+        <li class="li1"><a class="a1" href="/donate/index.html">Donate</a>
+        <ul class="ul2">
+            <li class="li2"><a class="a2" href="/donate/corporate-sponsors.html">Corporate Sponsors</a></li>
+            <li class="li2"><a class="a2" href="/donate/patrons.html">Individual Patrons</a></li>
+            <li class="li2"><a class="a2" href="/donate/award-sponsors.html">Artist Award Sponsors</a></li>
+          </ul>
+        </li>
+        <li class="li1"><a class="a2" href="/civic/index.html" class="">Civic Art Collection</a></li>
+        <li class="li1"><a class="a2" href="/board/index.html">Board of Directors</a>
+        <ul class="ul2">
+            <li class="li2"><a class="a2" href="/board/honorary-chairs.html">Past Honorary Chairs</a></li>
+            <li class="li2"><a class="a2" href="/board/past-chairs.html">Past Chairs</a></li>
+          </ul>
+        </li>
+        <li class="li1"><a class="a1" href="/contact/index.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section>
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+    </section>
+    <footer>
+      Footer goes here
+    </footer>
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
